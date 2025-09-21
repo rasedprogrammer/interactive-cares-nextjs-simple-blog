@@ -4,7 +4,7 @@ export default function AuthorCard() {
   return (
     <div className="bg-white p-8 rounded-xl shadow-md flex flex-col items-center text-center">
       <img
-        src="/profile.jpg" // replace with your image
+        src="/Rased.jpg"
         alt="Author"
         className="w-24 h-24 rounded-full object-cover mb-4"
       />
