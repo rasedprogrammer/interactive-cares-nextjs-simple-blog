@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://simple-blog-application-delta.vercel.app/",
+  siteUrl: "https://nextjs-blog-app-interactive.vercel.app/",
   generateRobotsTxt: true,
 };
