@@ -15,12 +15,16 @@ const Footer = () => {
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Image src="/logo.png" alt="Logo" width={45} height={45} />
               <span className="text-xl font-semibold text-gray-800">
-                codewithsinikdho
+                ByteWrite – Digital writing meets tech.
               </span>
             </Link>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Building modern web apps with Next.js, TailwindCSS, and MongoDB.
-              Tutorials, guides, and open-source projects for developers.
+              At ByteWrite, we turn coding ideas into reality. Learn how to
+              build cutting-edge web apps using Next.js, TailwindCSS, and
+              MongoDB through tutorials, step-by-step guides, and community
+              projects. Whether you’re a beginner or an experienced developer,
+              ByteNest offers inspiration and practical knowledge for every
+              stage of your journey.
             </p>
           </div>
 
@@ -36,19 +40,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/privacy-policy"
-                  className="hover:text-blue-600 transition"
-                >
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/licensing"
-                  className="hover:text-blue-600 transition"
-                >
-                  Licensing
+                <Link href="/blog" className="hover:text-blue-600 transition">
+                  Blog
                 </Link>
               </li>
               <li>

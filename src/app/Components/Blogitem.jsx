@@ -2,7 +2,6 @@
 import Link from "next/link";
 
 export default function Blogitem({ blog }) {
-  console.log(blog);
   return (
     <div className="flex flex-col h-full bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-lg transition-shadow duration-300">
       {/* Blog Image */}
@@ -30,9 +29,6 @@ export default function Blogitem({ blog }) {
           />
           <div>
             <p className="text-sm font-medium text-gray-800">{blog.author}</p>
-            {/* <p className="text-xs text-gray-500">
-              {new Date(blog.date).toLocaleDateString()}
-            </p> */}
             <p className="text-xs text-gray-500">
               {blog?.createdAt
                 ? new Date(blog.createdAt).toLocaleDateString("en-US", {

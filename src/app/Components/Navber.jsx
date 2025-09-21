@@ -18,7 +18,7 @@ const Navber = () => {
         <div className="flex items-center space-x-2">
           <Link href="/" className="flex items-center space-x-2">
             <Image src="/logo.png" alt="Logo" width={40} height={40} />
-            <span className="text-xl font-bold text-gray-900">Qurno</span>
+            <span className="text-xl font-bold text-gray-900">ByteWrite</span>
           </Link>
         </div>
 

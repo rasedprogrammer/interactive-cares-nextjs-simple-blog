@@ -99,12 +99,6 @@ const Page = () => {
               <input type="checkbox" className="accent-blue-500" />
               Remember me
             </label>
-            <Link
-              className="text-sm text-blue-500 hover:underline"
-              href="/forgot-password"
-            >
-              Forgot password?
-            </Link>
           </div>
           <button
             type="submit"

@@ -9,7 +9,7 @@ const hindSiliguri = Hind_Siliguri({
 });
 
 export const metadata = {
-  title: "My App",
+  title: "ByteWrite – Digital writing meets tech.",
   description: "Next.js App with Hind Siliguri font",
 };
 
